@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 # 🎭 Assignment 5 – Playwright Data-Driven Testing
 
 ![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat&logo=playwright&logoColor=white)
@@ -126,3 +128,4 @@ npx playwright show-report
 ### 📊 Playwright Test Report
 
 ![Playwright Test Report](screenshots/playwright-test-report.png)
+>>>>>>> origin/main

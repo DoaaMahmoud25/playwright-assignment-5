@@ -1,0 +1,34 @@
+
+  [
+    {
+      "testName": "Valid Login ",
+      "email": "doaam.pag@gmail.com",
+      "password": "Pass12345",
+      "validity": "valid"
+    },
+
+    {
+      "testName": "Wrong Password",
+      "email": "doaam.pag@gmail.com",
+      "password": "wrong-pass",
+      "validity": "invalid",
+      "expectedMessage": "Incorrect email or password."
+    },
+
+    {
+      "testName": "Unregistered Email",
+      "email": "not-a-user@gmail.com",
+      "password": "learning",
+      "validity": "invalid",
+      "expectedMessage": "Incorrect email or password."
+    },
+
+    {
+      "testName": "Empty Fields",
+      "email": "",
+      "password": "",
+      "validity": "invalid",
+      "expectedMessage": "*Email is required"
+
+    }
+  ]
